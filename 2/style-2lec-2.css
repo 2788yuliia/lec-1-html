@@ -1,0 +1,30 @@
+h1 {
+background: #892726;
+    text-align: center;
+    color: white;
+}
+.A {
+    background: #c0c0c0;
+    box-sizing: border-box;
+    padding: 30px;
+
+
+}
+.B {
+    background: #6496ec;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.C {
+background: #6bba67;
+    height: 200px;
+    width: 200px;
+}
+.D {background: #8987ac;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+
+}
