@@ -1,0 +1,67 @@
+.container {
+    width: 1000px;
+    border: 3px solid black;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B {
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BCDEF {
+    margin-top: 10px;
+    display: flex;
+    column-gap: 5px;
+}
+.CDE {
+    /*height: 150px;*/
+    /*background-color: gray;*/
+    display: flex;
+    column-gap: 5px;
+    /*flex-direction: column;*/
+    /*row-gap: 5px;*/
+    /*margin-top: 5px;*/
+
+
+
+}
+.F {
+    background-color: gray;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item {
+    width: 100px;
+    height: 150px;
+    background-color: gray;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.BCDE {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 80%;
+
+}
