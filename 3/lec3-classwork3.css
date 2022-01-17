@@ -1,22 +1,21 @@
-*{
-    margin: 0 auto;
-}
-.container{
+
+.container {
     width: 600px;
     box-sizing: border-box;
     padding: 5px;
     color: white;
-
-
+margin: 0 auto;
 
 }
-.nav{
+
+.nav {
     display: flex;
     column-gap: 20px;
 
 }
-.home{
-    width:300px;
+
+.home {
+    width: 300px;
     height: 400px;
     background-color: #246abb;
     display: flex;
@@ -24,7 +23,8 @@
     align-items: center;
 
 }
-.about{
+
+.about {
     width: 300px;
     height: 400px;
     background-color: #246abb;
@@ -33,7 +33,8 @@
     justify-content: center;
     align-items: center;
 }
-.kabobs{
+
+.kabobs {
     background-color: #246abb;
     width: 100%;
     height: 200px;
@@ -42,11 +43,13 @@
     justify-content: center;
     align-items: center;
 }
-.menu{
+
+.menu {
     display: flex;
     column-gap: 20px;
 }
-.item{
+
+.item {
     background-color: #18467b;
     height: 200px;
     width: 200px;
@@ -54,7 +57,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 
 
 }
