@@ -1,0 +1,60 @@
+*{
+    margin: 0 auto;
+}
+.container{
+    width: 600px;
+    box-sizing: border-box;
+    padding: 5px;
+    color: white;
+
+
+
+}
+.nav{
+    display: flex;
+    column-gap: 20px;
+
+}
+.home{
+    width:300px;
+    height: 400px;
+    background-color: #246abb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about{
+    width: 300px;
+    height: 400px;
+    background-color: #246abb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kabobs{
+    background-color: #246abb;
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    column-gap: 20px;
+}
+.item{
+    background-color: #18467b;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
