@@ -1,0 +1,41 @@
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.w1000 {
+    width: 900px;
+}
+
+.w290 {
+    width: 290px;
+}
+.h500 {
+    height: 600px;}
+.h300 {
+    height: 300px;
+}
+
+.top , .bottom {
+    background-color: #246abb;
+}
+.mr-top {
+    margin-top: 20px;
+}
+.middle-part {
+    display: flex;
+    justify-content: space-between;
+}
+.middle-item {
+    background-color: #18467b;
+}
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+
+}
