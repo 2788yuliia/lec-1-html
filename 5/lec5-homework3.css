@@ -18,25 +18,39 @@
 }
 .main-left {
     width: 590px;
-    height: 500px;
+    height: 250px;
     /*margin: 10px;*/
 
 }
-.CDE {
+.EFG {
     display: flex;
 }
-.blockB {
-    width: 570px;
-    height: 250px;
+.BCD {
+    display: flex;
+}
+
+/*.blockB {*/
+/*    width: 570px;*/
+/*    height: 250px;*/
+/*    background-color: #c0c0c0;*/
+/*    margin: 10px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border-radius: 10px;*/
+
+/*}*/
+.blockBCD {
+    width: 180px;
+    height: 240px;
     background-color: #c0c0c0;
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-
 }
-.blockCDE {
+.blockEFG {
     width: 180px;
     height: 240px;
     background-color: #c0c0c0;
@@ -47,22 +61,21 @@
     border-radius: 10px;
 
 }
-.blockF {
+.blockH {
     width: 200px;
-    height: 510px;
+    height: 500px;
     background-color: #c0c0c0;
     margin: 10px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center;}
 
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
     .container {
         width: 420px;
-        height: 900px;
+        height: 300px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -71,17 +84,13 @@
         height: 120px;
         background-color: #c0c0c0;
     }
-    .blockB {
-        width: 400px;
-        height: 400px;
-        background-color: #c0c0c0;
-    }
-    .blockCDE {
+
+    .blockEFG , .blockBCD {
         width: 120px;
         height: 100px;
         background-color: #c0c0c0;
     }
-    .blockF{
+    .blockH {
         width: 400px;
         height: 100px;
         background-color: #c0c0c0;
