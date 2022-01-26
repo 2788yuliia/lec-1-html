@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 1440px;
+}
 body {
-    height: 10000px;
+    width: 1440px;
 }
 .header {
     height: 83px;
@@ -139,12 +142,9 @@ margin-bottom: 32px;
 .three-items {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 174px;
-    padding-top: 59px;
-    padding-right: 174px;
     column-gap: 80px;
     row-gap: 16px;
-    padding-bottom: 192px;
+    padding: 59px 174px 192px 174px;
 }
 .part-four {
     height: 494px;
@@ -384,7 +384,7 @@ margin-bottom: 32px;
     padding-left: 116px;
 }
 .eleven-right {
-    width: 800px;
+    width: 780px;
     background: #F9C600;
 }
 .eleven-left h4 {
